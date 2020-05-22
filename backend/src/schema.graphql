@@ -1,0 +1,38 @@
+type Answer {
+  option: String!
+  answer: String!
+}
+
+type Question {
+  id: ID!
+  description: String!
+  answers: [Answer!]!
+  correct_answer: String!
+}
+
+type Query {
+  questions: [Question!]!
+  question(id: ID!): Question
+}
+
+input inputAnswer {
+  option: String!
+  answer: String!
+}
+
+type Mutation {
+  createQuestion(
+    description: String!, 
+    correct_answer: String!, 
+    answers: [inputAnswer!]!
+  ): Question
+
+  updateQuestion(
+    id: ID!, 
+    description: String!, 
+    correct_answer: String!, 
+    answers: [inputAnswer!]!
+  ): Question
+  
+  deleteQuestion(id: ID!): Boolean
+}
