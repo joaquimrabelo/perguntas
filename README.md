@@ -8,7 +8,8 @@
 ## Sobre <a name = "sobre"></a>
 
 Back-end feito em NodeJS para cadastro de questões de múltipla escolha (perguntas e responstas).
-Front-end em ReactJS + Apollo Graphql
+
+Front-end em ReactJS + Apollo Graphql.
 
 ## Como usar <a name = "usage"></a>
 
@@ -32,13 +33,14 @@ Execute o comando abaixo para iniciar o back-end.
 ```
 yarn start
 ```
+A API será iniciada em http://localhost:4000
 
 
-### Fond-end
+### Front-end
 
-Excute o comando abaixo para iniciar o front-end.
+Execute o comando abaixo para iniciar o front-end.
 
 ```
 yarn start
 ```
-
+A aplicação ficará acessível no endereço: http://localhost:8080
