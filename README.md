@@ -1,4 +1,4 @@
-# backend - Cadastro de questões de múltipla escolha
+# Cadastro de questões de múltipla escolha
 
 ## Conteúdo
 
@@ -8,6 +8,7 @@
 ## Sobre <a name = "sobre"></a>
 
 Back-end feito em NodeJS para cadastro de questões de múltipla escolha (perguntas e responstas).
+Front-end em ReactJS + Apollo Graphql
 
 ## Como usar <a name = "usage"></a>
 
